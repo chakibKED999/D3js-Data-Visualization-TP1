@@ -53,10 +53,10 @@ Following the principles of data visualization, this project relies on **Scales*
 The project implements two primary visualization strategies to display the magnitude of numbers across categories.
 
 ## Strategy 1 — Horizontal Bar Charts
-To show the populations of the Top 15 cities, a horizontal bar chart is used (`index333.js`). Horizontal bars are preferred over vertical bars because city name labels take up significant horizontal space; rotating them would make the plot hard to read. The bars are arranged in descending order by size to make the figure clear and intuitive, avoiding arbitrary alphabetical ordering.
+To show the populations of the Top 15 cities, a horizontal bar chart is used (`index_cities.js`). Horizontal bars are preferred over vertical bars because city name labels take up significant horizontal space; rotating them would make the plot hard to read. The bars are arranged in descending order by size to make the figure clear and intuitive, avoiding arbitrary alphabetical ordering.
 
 ## Strategy 2 — Dot Plots
-Because bars must start at zero, they can sometimes obscure detailed differences between high-value categories. As an alternative, a Dot Plot (`index4_2.js`) places circular markers at specific coordinates along the axes, supplemented with a dashed grid line for enhanced readability. This approach reduces ink usage and highlights the relative positions of the cities based on their population.
+Because bars must start at zero, they can sometimes obscure detailed differences between high-value categories. As an alternative, a Dot Plot (`index_cities2.js`) places circular markers at specific coordinates along the axes, supplemented with a dashed grid line for enhanced readability. This approach reduces ink usage and highlights the relative positions of the cities based on their population.
 
 ---
 
@@ -88,10 +88,10 @@ Because bars must start at zero, they can sometimes obscure detailed differences
 ```text
 D3js-Data-Visualization-TP/
 │
-├── index_2.html              # Main HTML entry point loading the D3 CDN
-├── index333.js               # D3 script: Horizontal Bar Chart implementation
-├── index4_2.js               # D3 script: Dot Plot with grid lines implementation
-├── index_2.js                # D3 script: Mathematical grid and color mapping
+├── index.html              # Main HTML entry point loading the D3 CDN
+├── index_cities.js               # D3 script: Horizontal Bar Chart implementation
+├── index_cities2.js              # D3 script: Dot Plot with grid lines implementation
+├── index.js                # D3 script: Mathematical grid and color mapping
 │
 ├── us-cities_2.csv           # Dataset containing US city names and populations
 ├── named_colors_css_2.csv    # Dataset containing CSS color names and hex codes
